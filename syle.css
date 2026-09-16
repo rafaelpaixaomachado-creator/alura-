@@ -4,6 +4,7 @@
     --branco-principal: #FFFFFF;
     --cinza-scundario: #cococo;
     --botao-azul: #167BF7;
+     --cor-do-fundo: #03
     { 
 
     }
@@ -21,4 +22,9 @@
 .conteiner{
     height: 100vh;
 
+}
+.principal{  
+ background-image:url("Background.png");
+  background-repeat: no-repeat;
+   background-size:contain;
 }
