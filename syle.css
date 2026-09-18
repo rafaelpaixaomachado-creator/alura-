@@ -113,20 +113,26 @@ body {
     border-radius: 12px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px) {}
     .container {
         flex-direction: column;
         justify-content: center;
         text-align: center;
         padding: 2rem;
         gap: 2rem;
-    }
-
-    .titulo {
+        
+    }    
+       
+        .titulo {}
         font-size: 2rem;
-    }
-
+{}
     .botoes {
         justify-content: center;
     }
+
+
+    .container { 
+         height: 100vh; 
+       display: grid; 
+            grid-template-columns: 33% 33% 33%; 
 }
