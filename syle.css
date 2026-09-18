@@ -122,7 +122,7 @@ body {
         gap: 2rem;
         
     }    
-       
+    
         .titulo {}
         font-size: 2rem;
 {}
@@ -135,4 +135,10 @@ body {
          height: 100vh; 
        display: grid; 
             grid-template-columns: 33% 33% 33%; 
+}
+{
+.botao_secundario 
+background-color: transparent;
+
+
 }
